@@ -1,0 +1,19 @@
+body{
+	display: grid;
+	grid-template-areas: auto;
+	grid-template-rows: auto;
+	grid-template-areas: 
+	"header"
+	"section"
+	"footer";
+}
+.header-content{
+	grid-area: header;
+	background: blue;
+}
+.section-content{
+	grid-area: section;
+}
+.footer-content{
+	grid-area:footer;
+}
