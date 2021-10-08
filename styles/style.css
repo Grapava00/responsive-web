@@ -1,3 +1,12 @@
+/*დასაწყისი -გლობალური კლასები*/
+.container{
+	display: flex;
+	justify-content: space-between;
+	max-width: 1024px;
+	width: 100%;
+	margin: 0 auto;
+}
+/*დასასრული - გლობალური კლასები*/
 body{
 	display: grid;
 	grid-template-areas: auto;
@@ -7,13 +16,48 @@ body{
 	"section"
 	"footer";
 }
+/*დასაწყისი-ძირითადი სტრუქტურის შექმნა*/
 .header-content{
 	grid-area: header;
-	background: blue;
+	min-height: 387px;
+	background: #0020F4;
 }
-.section-content{
+/*.section-content{
 	grid-area: section;
 }
 .footer-content{
 	grid-area:footer;
+	background: darkblue;
+}*/
+/*დასასრული-ძირითადი სტრუქტურის შექმნა*/
+/*დასაწყისი-ჰედერის სტილები*/
+.header-content .container{
+	padding-top: 40px;
+	align-items: center;
 }
+.header-content .navbar-ul{
+	display: flex;
+}
+.header-content .navbar-ul .navbar-li{
+	margin-right: 30px;
+}
+.header-content .navbar-ul .navbar-li a{
+	color: white;
+	font-family: 'Helvetica Neue Regular';
+	padding-bottom: 10px;
+	transition: .3s;
+}
+.header-content .navbar .navbar-contact a{
+	padding: 18px 40px;
+	border-radius: 28px;
+	background: white;
+	color: #171717;
+	font-family: 'Helvetica Neue Bold';
+}
+.header-content .navbar-ul .navbar-li a:hover{
+    border-bottom: 2px solid white;
+}
+/*დასასრული-ჰედერის სტილები*/
+
+
+
