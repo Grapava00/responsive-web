@@ -104,14 +104,14 @@ body{
 /*ფუტერის სტილები*/
 .footer-content .contact-container, #registration{
 	padding: 270px 0 270px 0 ;
-	max-width: 600px;
+	max-width: 500px;
 	width: 100%;
 }
 .footer-content .map-container p{
-	max-width: 420px;
+	max-width: 400px;
 }
 .footer-content iframe{
-	max-width: 420px;
+	max-width: 350px;
 	width: 100%;
 	min-height: 180px;
 	height: 100%;
@@ -150,7 +150,7 @@ body{
 	font-size: 22px;
 }
 .footer-content #registration{
-	max-width: 330px;
+	max-width: 300px;
 	width: 100%;
 }
 #registration .input-field{
@@ -201,7 +201,23 @@ button :link{
 	background: blue;
 	color: white;
 }
-
+.made-by ul{
+	display: flex;
+	align-items: center;
+}
+.made-by ul li{
+	margin-right: 15px;
+	color: white;
+}
+.container .rights{
+	color: white;
+}
+.footer-bar .container{
+	align-items: center;
+	margin-bottom: 30px;
+	padding-top: 40px;
+	border-top: 1px solid rgba(255,255,255, 0.2);
+}
 
 
 
