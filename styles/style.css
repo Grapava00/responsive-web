@@ -102,13 +102,16 @@ body{
 	font-family: 'Helvetica Neue Bold';
 }
 /*ფუტერის სტილები*/
-.footer-content .contact-container, form{
+.footer-content .contact-container, #registration{
 	padding: 270px 0 270px 0 ;
-	max-width: 400px;
+	max-width: 600px;
 	width: 100%;
 }
+.footer-content .map-container p{
+	max-width: 420px;
+}
 .footer-content iframe{
-	max-width: 400px;
+	max-width: 420px;
 	width: 100%;
 	min-height: 180px;
 	height: 100%;
@@ -130,7 +133,6 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	width: 600px;
 }
 
 .contact-opportunities svg{
@@ -147,8 +149,58 @@ body{
 	color: #FFFFFF;
 	font-size: 22px;
 }
-
-
+.footer-content #registration{
+	max-width: 330px;
+	width: 100%;
+}
+#registration .input-field{
+	display: flex;
+	flex-direction: column;
+	margin: 20px 0;
+}
+.input-field label{
+	font-size: 16px;
+	color: white;
+	padding-bottom: 20px;
+}
+.input-field input{
+	background: none;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255, 0.2);
+    max-width: 330px;
+    width: 100%;
+    min-height: 30px;
+    color: white;
+}
+#registration #comment{
+	height: 160px;
+	resize: none;
+	background: none;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255, 0.2);
+    color: white;
+}
+#registration .button{
+	display: flex;
+	justify-content: flex-end;
+    margin-top: 50px;
+}
+.button button{
+	padding: 18px 45px 18px 36px;
+	border-radius: 28px;
+	background: white;
+	transition: .3s;
+	font-family: 'Helvetica Neue Bold';
+	border: none;
+}
+button:hover{
+	background: red;
+	color: white;
+}
+button :link{
+	background: blue;
+	color: white;
+}
 
 
 
