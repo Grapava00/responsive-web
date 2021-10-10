@@ -10,7 +10,7 @@
 body{
 	display: grid;
 	grid-template-areas: auto;
-	grid-template-rows: auto;
+	grid-template-rows: minmax(387px, auto) auto minmax(780px, auto);
 	grid-template-areas: 
 	"header"
 	"section"
@@ -18,7 +18,6 @@ body{
 }
 .header-content{
 	grid-area: header;
-	min-height: 387px;
 	background: #0020F4;
 }
 .section-content{
@@ -26,7 +25,7 @@ body{
 }
 .footer-content{
 	grid-area:footer;
-	background: darkblue;
+	background:  #0020F4;
 }
 
 /*ჰედერის სტილები*/
@@ -102,6 +101,53 @@ body{
 	color: #FFFFFF;
 	font-family: 'Helvetica Neue Bold';
 }
+/*ფუტერის სტილები*/
+.footer-content .contact-container, form{
+	padding: 270px 0 270px 0 ;
+	max-width: 400px;
+	width: 100%;
+}
+.footer-content iframe{
+	max-width: 400px;
+	width: 100%;
+	min-height: 180px;
+	height: 100%;
+	border-radius: 15px;
+}
+.footer-content .contact-container h3{
+	color: #FFFFFF;
+	font-family: 'Helvetica Neue Bold';
+	font-size: 32px;
+	padding-bottom: 30px;
+}
+.footer-content .contact-container p{
+	color: #FFFFFF;
+	line-height: 1.5; 
+	padding-bottom: 58px;
+}
+.contact-container .contact-opportunities{
+	padding-top: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 600px;
+}
+
+.contact-opportunities svg{
+	padding: 10px;
+	background: white;
+	border-radius: 50px;
+}
+.contact-opportunities .call, .mail{
+	display: flex;
+	align-items: center;
+}
+.contact-opportunities span{
+	padding-left: 20px;
+	color: #FFFFFF;
+	font-size: 22px;
+}
+
 
 
 
